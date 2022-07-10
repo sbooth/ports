@@ -1,0 +1,26 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:ft=tcl:et:sw=4:ts=4:sts=4
+
+PortSystem          1.0
+
+name                libvorbis
+version             1.3.7
+categories          audio
+platforms           darwin
+license             BSD
+maintainers         @sbooth
+description         Vorbis audio compression
+long_description    Ogg Vorbis is a fully open, non-proprietary, \
+		    patent-and-royalty-free, general-purpose compressed audio \
+		    format for mid to high quality (8kHz-48.0kHz, 16+ bit, \
+		    polyphonic) audio and music at fixed and variable bitrates \
+                    from 16 to 128 kbps/channel.
+homepage            https://www.xiph.org/vorbis/
+master_sites        https://ftp.osuosl.org/pub/xiph/releases/libvorbis/
+
+use_parallel_build  yes
+
+checksums           rmd160  dc894b201bcf253c54b3e8468c656987ea9f97c8 \
+                    sha256  0e982409a9c3fc82ee06e08205b1355e5c6aa4c36bca58146ef399621b0ce5ab \
+                    size    1658963
+
+depends_lib         port:libogg
