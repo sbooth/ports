@@ -13,7 +13,7 @@ long_description    libfishsound provides a simple programming interface for \
 		    decoding and encoding audio data using the Xiph.org \
                     codecs (FLAC, Speex and Vorbis).
 
-homepage            https://www.xiph.org/oggz/
+homepage            https://www.xiph.org/fishsound/
 master_sites        https://ftp.osuosl.org/pub/xiph/releases/libfishsound/
 
 use_parallel_build  yes
