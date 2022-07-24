@@ -21,3 +21,7 @@ checksums           rmd160  49919da94696932ca88cc81bcc317a434ce67bc9 \
 
 depends_lib         port:libvorbis \
                     port:speex
+
+livecheck.type      regex
+livecheck.url       ${master_sites}
+livecheck.regex     ${name}-(\\d+(?:\\.\\d+)*)
