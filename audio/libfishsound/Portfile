@@ -5,7 +5,6 @@ PortSystem          1.0
 name                libfishsound
 version             1.0.0
 categories          audio
-platforms           darwin
 license             BSD
 maintainers         @sbooth
 description         libfishsound
@@ -15,8 +14,6 @@ long_description    libfishsound provides a simple programming interface for \
 
 homepage            https://www.xiph.org/fishsound/
 master_sites        https://ftp.osuosl.org/pub/xiph/releases/libfishsound/
-
-use_parallel_build  yes
 
 checksums           rmd160  49919da94696932ca88cc81bcc317a434ce67bc9 \
                     sha256  2e0b57ce2fecc9375eef72938ed08ac8c8f6c5238e1cae24458f0b0e8dade7c7 \

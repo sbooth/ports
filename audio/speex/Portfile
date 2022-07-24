@@ -5,7 +5,6 @@ PortSystem          1.0
 name                speex
 version             1.2.1
 categories          audio
-platforms           darwin
 license             BSD
 maintainers         @sbooth
 description         A Free Codec For Free Speech
@@ -16,8 +15,6 @@ long_description    Speex is an Open Source/Free Software patent-free audio \
                     speech codecs.
 homepage            https://www.speex.org
 master_sites        https://ftp.osuosl.org/pub/xiph/releases/speex/
-
-use_parallel_build  yes
 
 checksums           rmd160  77f950dac2744dc044a64157dbe28b367f32ff4a \
                     sha256  4b44d4f2b38a370a2d98a78329fefc56a0cf93d1c1be70029217baae6628feea \
